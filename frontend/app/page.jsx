@@ -13,7 +13,7 @@ const HomePage = () => {
           subscribe
         </Button>
 
-        <PricingTable/>
+       
        </section>
        </div>
   )
