@@ -75,7 +75,7 @@ const Header = async() => {
          <Button > Get Started </Button>
       </SignInButton>:
       <div className='flex gap-4 items-center '>
-      <Link href={"/create-new-trip"}>
+      <Link href={"/dashboard"}>
       <Button className="bg-destructive "> Get Started</Button>
       </Link>
        <UserDropDown/>

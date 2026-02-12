@@ -15,7 +15,7 @@
       "type": "string",
       "required": true
     },
-    "quanity": {
+    "quantity": {
       "type": "string"
     },
     "imageUrl": {
