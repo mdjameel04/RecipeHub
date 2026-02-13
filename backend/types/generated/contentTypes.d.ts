@@ -570,7 +570,7 @@ export interface ApiRecipeRecipe extends Struct.CollectionTypeSchema {
       'api::saved-recipe.saved-recipe'
     >;
     servings: Schema.Attribute.Integer;
-    subsitutions: Schema.Attribute.JSON;
+    substitutions: Schema.Attribute.JSON;
     tips: Schema.Attribute.JSON;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;

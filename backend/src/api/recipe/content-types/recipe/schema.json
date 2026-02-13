@@ -92,7 +92,7 @@
     "tips": {
       "type": "json"
     },
-    "subsitutions": {
+    "substitutions": {
       "type": "json"
     },
     "saved_recipes": {
