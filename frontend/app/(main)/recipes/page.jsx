@@ -4,9 +4,11 @@ import { useEffect } from "react";
 import { Bookmark, Loader2, ChefHat } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import useFetch from "@/hooks/use-fetch";
+
+import useFetch from "@/hook/use-fetch";
+import RecipeCard from "@/app/components/RecipeCard";
 import { getSavedRecipes } from "@/actions/recipe.actions";
-import RecipeCard from "@/components/RecipeCard";
+
 
 export default function SavedRecipesPage() {
   const {
